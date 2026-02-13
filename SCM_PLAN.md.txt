@@ -1,0 +1,16 @@
+# Software Configuration Management (SCM) Plan
+
+## 1. SCM Objectives
+The goal of this SCM plan is to ensure the integrity and reliability of the **Book Catalog Service** project. Key objectives include:
+* **Traceability:** Every change in the code must be tracked with a clear commit message and author, allowing us to know "who changed what and when."
+* **Quality:** Using Pull Requests and code reviews to prevent bugs from reaching the production branch.
+* **Reliability:** Ensuring that the `main` branch is always stable and deployable.
+
+## 2. Branching Strategy: Git Flow
+We have selected **Git Flow** as our branching strategy.
+* **Main Branch (`main`):** Contains the production-ready code.
+* **Feature Branches (`feat/...`):** Created from `main` for developing new features.
+* **Hotfix Branches:** Used for quick fixes.
+
+### Justification for Selection
+Git Flow was chosen because it provides a strict structure that separates "work in progress" (Features) from the "stable product" (Main). This is ideal for our team collaboration to minimize conflicts and ensure stability.
